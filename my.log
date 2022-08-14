@@ -1,0 +1,356 @@
+2022-08-13 15:31:29,028[INFO] [GAN_FS]  - 시작
+2022-08-13 15:32:42,820[INFO] [GAN_FS] : 시작
+2022-08-13 15:32:45,268[INFO] [GAN_FS] : (284807, 31)시작
+2022-08-13 15:36:45,850[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:36:45,869[INFO] [GAN_FS] : total samples len : (284807, 29)
+2022-08-13 15:36:45,870[INFO] [GAN_FS] : total lables len: (284807, 29)
+2022-08-13 15:36:45,926[INFO] [GAN_FS] : samples normalization (0~1) complete : [[9.3519241e-01 7.6649040e-01 8.8136494e-01 ... 4.1897613e-01
+  3.1269664e-01 5.8237929e-03]
+ [9.7854203e-01 7.7006662e-01 8.4029853e-01 ... 4.1634512e-01
+  3.1342265e-01 1.0470528e-04]
+ [9.3521708e-01 7.5311762e-01 8.6814088e-01 ... 4.1548926e-01
+  3.1191131e-01 1.4738923e-02]
+ ...
+ [9.9090487e-01 7.6407969e-01 7.8110206e-01 ... 4.1659316e-01
+  3.1258485e-01 2.6421540e-03]
+ [9.5420909e-01 7.7285570e-01 8.4958714e-01 ... 4.1851953e-01
+  3.1524515e-01 3.8923896e-04]
+ [9.4923186e-01 7.6525640e-01 8.4960151e-01 ... 4.1646636e-01
+  3.1340083e-01 8.4464857e-03]]
+2022-08-13 15:37:01,096[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:37:01,115[INFO] [GAN_FS] : total samples len : (284807, 29)
+2022-08-13 15:37:01,115[INFO] [GAN_FS] : total lables len: (284807, 29)
+2022-08-13 15:37:01,174[INFO] [GAN_FS] : samples normalization (0~1) complete : [[9.3519241e-01 7.6649040e-01 8.8136494e-01 3.1302270e-01 7.6343870e-01
+  2.6766863e-01 2.6681522e-01 7.8644419e-01 4.7531179e-01 5.1060051e-01
+  2.5248432e-01 6.8090761e-01 3.7159061e-01 6.3559049e-01 4.4608369e-01
+  4.3439239e-01 7.3717248e-01 6.5506583e-01 5.9486324e-01 5.8294225e-01
+  5.6118441e-01 5.2299207e-01 6.6379291e-01 3.9125270e-01 5.8512181e-01
+  3.9455679e-01 4.1897613e-01 3.1269664e-01 5.8237929e-03]
+ [9.7854203e-01 7.7006662e-01 8.4029853e-01 2.7179652e-01 7.6612031e-01
+  2.6219168e-01 2.6487547e-01 7.8629833e-01 4.5398101e-01 5.0526738e-01
+  3.8118771e-01 7.4434155e-01 4.8619017e-01 6.4121896e-01 3.8383967e-01
+  4.6410519e-01 7.2779393e-01 6.4068109e-01 5.5193043e-01 5.7952976e-01
+  5.5783993e-01 4.8023695e-01 6.6693777e-01 3.3644000e-01 5.8729023e-01
+  4.4601297e-01 4.1634512e-01 3.1342265e-01 1.0470528e-04]]
+2022-08-13 15:39:36,666[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:39:36,689[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:39:36,689[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:39:36,748[INFO] [GAN_FS] : samples normalization (0~1) complete : [[9.3519241e-01 7.6649040e-01 8.8136494e-01 3.1302270e-01 7.6343870e-01
+  2.6766863e-01 2.6681522e-01 7.8644419e-01 4.7531179e-01 5.1060051e-01
+  2.5248432e-01 6.8090761e-01 3.7159061e-01 6.3559049e-01 4.4608369e-01
+  4.3439239e-01 7.3717248e-01 6.5506583e-01 5.9486324e-01 5.8294225e-01
+  5.6118441e-01 5.2299207e-01 6.6379291e-01 3.9125270e-01 5.8512181e-01
+  3.9455679e-01 4.1897613e-01 3.1269664e-01 5.8237929e-03]
+ [9.7854203e-01 7.7006662e-01 8.4029853e-01 2.7179652e-01 7.6612031e-01
+  2.6219168e-01 2.6487547e-01 7.8629833e-01 4.5398101e-01 5.0526738e-01
+  3.8118771e-01 7.4434155e-01 4.8619017e-01 6.4121896e-01 3.8383967e-01
+  4.6410519e-01 7.2779393e-01 6.4068109e-01 5.5193043e-01 5.7952976e-01
+  5.5783993e-01 4.8023695e-01 6.6693777e-01 3.3644000e-01 5.8729023e-01
+  4.4601297e-01 4.1634512e-01 3.1342265e-01 1.0470528e-04]]
+2022-08-13 15:43:23,029[INFO] [GAN_FS] : === STRAT PREPROCESS_DATA ===
+2022-08-13 15:43:25,357[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:43:25,379[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:43:25,379[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:43:25,437[INFO] [GAN_FS] : samples normalization (0~1) complete : [[9.3519241e-01 7.6649040e-01 8.8136494e-01 3.1302270e-01 7.6343870e-01
+  2.6766863e-01 2.6681522e-01 7.8644419e-01 4.7531179e-01 5.1060051e-01
+  2.5248432e-01 6.8090761e-01 3.7159061e-01 6.3559049e-01 4.4608369e-01
+  4.3439239e-01 7.3717248e-01 6.5506583e-01 5.9486324e-01 5.8294225e-01
+  5.6118441e-01 5.2299207e-01 6.6379291e-01 3.9125270e-01 5.8512181e-01
+  3.9455679e-01 4.1897613e-01 3.1269664e-01 5.8237929e-03]
+ [9.7854203e-01 7.7006662e-01 8.4029853e-01 2.7179652e-01 7.6612031e-01
+  2.6219168e-01 2.6487547e-01 7.8629833e-01 4.5398101e-01 5.0526738e-01
+  3.8118771e-01 7.4434155e-01 4.8619017e-01 6.4121896e-01 3.8383967e-01
+  4.6410519e-01 7.2779393e-01 6.4068109e-01 5.5193043e-01 5.7952976e-01
+  5.5783993e-01 4.8023695e-01 6.6693777e-01 3.3644000e-01 5.8729023e-01
+  4.4601297e-01 4.1634512e-01 3.1342265e-01 1.0470528e-04]]
+2022-08-13 15:44:46,668[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:44:46,694[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:44:46,694[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:44:46,764[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:46:40,305[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:46:40,326[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:46:40,326[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:46:40,382[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:48:30,612[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:48:30,630[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:48:30,630[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:48:30,692[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:52:24,802[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:52:24,823[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:52:24,823[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:52:24,882[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:52:24,999[INFO] [GAN_FS] : total x_train shape : (170884, 29)
+2022-08-13 15:52:25,000[INFO] [GAN_FS] : total y_train shape : (170884,)
+2022-08-13 15:52:25,000[INFO] [GAN_FS] : total x_test shape : (113923, 29)
+2022-08-13 15:52:25,000[INFO] [GAN_FS] : total y_test shape : (113923,)
+2022-08-13 15:52:45,231[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:52:45,252[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:52:45,252[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:52:45,309[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:52:45,432[INFO] [GAN_FS] : total x_train shape : (170884, 29)
+2022-08-13 15:52:45,433[INFO] [GAN_FS] : total y_train shape : (170884,)
+2022-08-13 15:52:45,433[INFO] [GAN_FS] : total x_test shape : (113923, 29)
+2022-08-13 15:52:45,433[INFO] [GAN_FS] : total y_test shape : (113923,)
+2022-08-13 15:54:06,188[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:54:06,209[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:54:06,209[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:54:06,271[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:54:06,398[INFO] [GAN_FS] : total x_train shape : (170884, 29)
+2022-08-13 15:54:06,398[INFO] [GAN_FS] : total y_train shape : (170884,)
+2022-08-13 15:54:06,398[INFO] [GAN_FS] : total x_test shape : (113923, 29)
+2022-08-13 15:54:06,398[INFO] [GAN_FS] : total y_test shape : (113923,)
+2022-08-13 15:54:24,674[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:54:24,696[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:54:24,696[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:54:24,754[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:54:24,877[INFO] [GAN_FS] : total x_train shape : (170884, 29)
+2022-08-13 15:54:24,877[INFO] [GAN_FS] : total y_train shape : (170884,)
+2022-08-13 15:54:24,877[INFO] [GAN_FS] : total x_test shape : (113923, 29)
+2022-08-13 15:54:24,877[INFO] [GAN_FS] : total y_test shape : (113923,)
+2022-08-13 15:58:12,917[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:58:12,938[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:58:12,938[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:58:12,997[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:58:13,121[INFO] [GAN_FS] : traning_ratio : 0.6, train_len : 170884, test_len : 113923
+2022-08-13 15:58:13,121[INFO] [GAN_FS] : total x_train shape : (170884, 29)
+2022-08-13 15:58:13,121[INFO] [GAN_FS] : total y_train shape : (170884,)
+2022-08-13 15:58:13,121[INFO] [GAN_FS] : total x_test shape : (113923, 29)
+2022-08-13 15:58:13,121[INFO] [GAN_FS] : total y_test shape : (113923,)
+2022-08-13 15:59:31,327[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 15:59:31,347[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 15:59:31,347[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 15:59:31,403[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 15:59:31,531[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 15:59:31,531[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 15:59:31,531[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 15:59:31,531[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 15:59:31,531[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 16:44:24,492[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 16:44:24,513[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 16:44:24,513[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 16:44:24,568[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 16:45:33,512[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 16:45:33,532[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 16:45:33,532[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 16:45:33,589[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 16:45:41,908[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 16:45:41,908[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 16:45:41,908[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 16:45:41,908[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 16:45:41,909[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 16:46:27,433[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 16:46:27,453[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 16:46:27,454[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 16:46:27,509[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 16:46:33,869[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 16:46:33,869[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 16:46:33,869[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 16:46:33,869[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 16:46:33,869[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:05:16,526[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:05:16,542[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:05:16,542[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:05:16,595[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:05:16,949[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:05:16,949[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:05:16,949[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:05:16,949[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:05:16,950[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:19:10,779[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:19:10,806[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:19:10,806[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:19:10,867[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:19:11,218[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:19:11,218[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:19:11,218[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:19:11,218[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:19:11,218[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:22:11,648[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:22:11,668[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:22:11,669[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:22:11,733[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:22:12,087[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:22:12,087[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:22:12,087[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:22:12,087[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:22:12,087[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:22:55,848[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:22:55,870[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:22:55,870[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:22:55,928[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:23:11,576[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:23:11,594[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:23:11,594[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:23:11,662[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:23:12,025[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:23:12,025[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:23:12,025[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:23:12,025[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:23:12,025[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:41:44,046[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:41:44,070[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:41:44,071[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:41:44,137[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:41:44,504[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:41:44,504[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:41:44,504[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:41:44,504[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:41:44,504[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:49:30,960[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:49:30,981[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:49:30,982[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:49:31,044[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:49:31,170[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:49:31,171[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:49:31,171[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:49:31,171[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:49:31,171[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:50:23,560[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:50:23,581[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:50:23,581[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:50:23,634[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:50:23,767[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:50:23,767[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:50:23,767[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:50:23,768[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:50:23,768[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:52:02,927[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:52:02,948[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:52:02,948[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:52:03,008[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:52:03,128[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:52:03,128[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:52:03,128[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:52:03,128[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:52:03,128[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:55:00,813[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:55:00,836[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:55:00,836[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:55:00,894[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:55:01,023[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:55:01,023[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:55:01,024[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:55:01,024[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:55:01,024[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:55:45,010[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:55:45,033[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:55:45,034[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:55:45,100[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:55:45,223[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:55:45,223[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:55:45,223[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:55:45,223[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:55:45,224[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 17:56:00,839[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 17:56:00,860[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 17:56:00,860[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 17:56:00,921[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 17:56:01,044[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 17:56:01,044[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 17:56:01,044[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 17:56:01,044[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 17:56:01,044[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 18:01:35,151[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 18:01:35,173[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 18:01:35,173[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 18:01:35,235[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 18:01:35,351[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 18:01:35,351[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 18:01:35,351[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 18:01:35,351[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 18:01:35,351[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 18:01:56,428[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 18:01:56,450[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 18:01:56,451[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 18:01:56,510[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 18:01:56,640[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 18:01:56,640[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 18:01:56,641[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 18:01:56,641[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 18:01:56,641[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 18:02:44,570[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 18:02:44,594[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 18:02:44,594[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 18:02:44,665[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 18:02:44,787[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 18:02:44,788[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 18:02:44,788[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 18:02:44,788[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 18:02:44,788[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 18:03:02,412[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 18:03:02,429[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 18:03:02,429[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 18:03:02,488[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 18:03:02,611[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 18:03:02,611[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 18:03:02,611[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 18:03:02,612[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 18:03:02,612[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-13 18:05:40,323[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-13 18:05:40,344[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-13 18:05:40,345[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-13 18:05:40,398[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-13 18:05:40,523[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-13 18:05:40,523[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-13 18:05:40,523[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-13 18:05:40,523[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-13 18:05:40,524[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:16:15,382[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:16:15,418[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:16:15,418[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:16:15,467[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:16:15,574[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:16:15,575[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:16:15,575[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:16:15,575[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:16:15,575[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:21:32,275[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:21:32,294[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:21:32,294[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:21:32,351[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:21:32,464[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:21:32,464[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:21:32,464[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:21:32,464[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:21:32,465[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:22:32,636[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:22:32,656[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:22:32,656[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:22:32,713[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:22:32,830[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:22:32,830[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:22:32,830[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:22:32,830[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:22:32,830[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:23:07,406[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:23:07,427[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:23:07,428[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:23:07,483[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:23:07,601[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:23:07,602[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:23:07,602[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:23:07,602[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:23:07,602[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:52:55,490[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:52:55,515[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:52:55,515[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:52:55,579[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:52:55,703[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:52:55,703[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:52:55,703[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:52:55,703[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:52:55,703[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:56:09,634[INFO] [GAN_FS] : get data complete data shape : (284807, 31)
+2022-08-14 14:56:09,655[INFO] [GAN_FS] : total samples shape : (284807, 29)
+2022-08-14 14:56:09,655[INFO] [GAN_FS] : total lables shape : (284807,)
+2022-08-14 14:56:09,715[INFO] [GAN_FS] : samples normalization (0~1) complete
+2022-08-14 14:56:09,831[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:56:09,831[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:56:09,831[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:56:09,831[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:56:09,832[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
+2022-08-14 14:58:21,359[INFO] [GAN_FS] : total x_train shape : (28480, 29)
+2022-08-14 14:58:21,359[INFO] [GAN_FS] : total y_train shape : (28480,)
+2022-08-14 14:58:21,359[INFO] [GAN_FS] : total x_test shape : (256327, 29)
+2022-08-14 14:58:21,359[INFO] [GAN_FS] : total y_test shape : (256327,)
+2022-08-14 14:58:21,359[INFO] [GAN_FS] : traning_ratio : 0.1, train_len : 28480, test_len : 256327
