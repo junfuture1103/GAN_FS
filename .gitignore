@@ -2,4 +2,4 @@ creditcard.csv
 creditcard_test.ipynb
 test_torch.ipynb
 test_torch.py
-src/__pycache__
+*/__pycache__

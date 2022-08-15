@@ -9,6 +9,7 @@ def RandomForest(x_train, y_train, x_test, y_test):
     y_pred = model_rf.predict(x_test) 
     # validation
     y_real = y_test
+    
     accuracy = round(sum(y_pred == y_real) / len(y_pred), 4)
     precision = round(sum([p == 1 & r == 1 for p, r in zip(y_pred, y_real)]) / sum(y_pred == 1), 4)
     recall = round(sum([p == 1 & r == 1 for p, r in zip(y_pred, y_real)]) / sum(y_real == 1), 4)

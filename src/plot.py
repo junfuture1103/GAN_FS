@@ -21,7 +21,7 @@ def corrlation(df, new_df):
     # show Correlation Graph
     plt.show()
 
-def box_graph(df, new_df):
+def box_graph(new_df):
     f, axes = plt.subplots(ncols=4, figsize = (20,4))
     sns.boxplot(x="Class", y="V17", data=new_df, palette=colors, ax=axes[0])
     axes[0].set_title('V17 vs Class Negative Correlation')

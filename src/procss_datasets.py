@@ -12,6 +12,7 @@ def preprocess_data(df):
     print('=== STRAT PREPROCESS_DATA ===')
 
     np_array = df.to_numpy()
+    print("np_array 0 : ", np_array[:,0])
     np.random.shuffle(np_array)
 
     # partition labels and samples
@@ -26,14 +27,13 @@ def preprocess_data(df):
     samples = minmax_scale(samples.astype('float32'))
     labels = labels.astype('int')
 
-    print("samples.shape[1]", samples.shape[1])
     src.models.x_size = samples.shape[1]
     # total data spilt & samples normalization (0~1) complete
     # logger.info(f'samples normalization (0~1) complete')
 
     return samples, labels
 
-def prepare_dataset(name: str, training_test_ratio: float = 0.8) -> None:
+def prepare_dataset(name: str, training_test_ratio: float = 0.5) -> None:
     samples, labels = preprocess_data(name)
     training_samples, test_samples, training_labels, test_labels = train_test_split(
         samples,
@@ -43,8 +43,6 @@ def prepare_dataset(name: str, training_test_ratio: float = 0.8) -> None:
     )
     src.datasets.training_samples = training_samples
     src.datasets.training_labels = training_labels
-    print("src.datasets.training_labels type : ", type(src.datasets.training_labels))
-    print("src.datasets.training_labels : ", src.datasets.training_labels)
     src.datasets.test_samples = test_samples
     src.datasets.test_labels = test_labels
 
