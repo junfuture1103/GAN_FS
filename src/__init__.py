@@ -1,10 +1,16 @@
+from .config import config_gan
+from. config import config_vae
+
 from . import (
     log,
-    datasets,
     plot,
+    procss_datasets,
     sample,
     autoencoder,
     regression,
-    config,
+    datasets,
+    gan,
     models,
+    config,
+    vae,
 )
