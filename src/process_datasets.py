@@ -33,7 +33,7 @@ def preprocess_data(df):
 
     return samples, labels
 
-def prepare_dataset(name: str, training_test_ratio: float = 0.1) -> None:
+def prepare_dataset(name: str, training_test_ratio: float = 0.6) -> None:
     samples, labels = preprocess_data(name)
     training_samples, test_samples, training_labels, test_labels = train_test_split(
         samples,
@@ -75,9 +75,10 @@ def prepare_dataset(name: str, training_test_ratio: float = 0.1) -> None:
 
 def print_test_vs_train(train_labels, test_labels):
     print('=== TEST vs TRAIN ===')
-    tmp = pd.DataFrame([[sum(train_labels == 0), sum(test_labels == 0)], [sum(train_labels == 1), sum(test_labels == 1)]], 
-             columns=['train', 'test'], index=['0 (non-fraud)', '1 (fraud)'])
+    tmp = pd.DataFrame([[sum(train_labels == 0), sum(test_labels == 0), round(sum(train_labels == 0) / sum(train_labels == 1), 4)], [sum(train_labels == 1), sum(test_labels == 1), round(sum(test_labels == 0) / sum(test_labels == 1), 4)]], 
+             columns=['train', 'test', 'percentage'], index=['0 (non-fraud)', '1 (fraud)'])
     print(tmp)
+
 
     return
 

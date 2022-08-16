@@ -1,4 +1,6 @@
 
+import time
+import src
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -41,9 +43,17 @@ def box_graph(new_df):
     plt.show()
 
 def TSNE_graph(target_sample, target_label, train_sample, train_label):
-
+    print("====== start X_reduced_tsne ======")
+    start1 = time.time()
     X_reduced_tsne = TSNE(n_components=2, random_state=42).fit_transform(target_sample)
+    end1 = time.time()
+    print("X_reduced_tsne t-SNE time : ", end1-start1)
+
+    print("====== start X_reduced_tsne2 ======")
+    start1 = time.time()
     X_reduced_tsne2 = TSNE(n_components=2, random_state=42).fit_transform(train_sample)
+    end1 = time.time()
+    print("X_reduced_tsne2 t-SNE time : ", end1-start1)
 
     f, (ax1,ax2,ax3) = plt.subplots(1,3, figsize=(24,6))
     f.suptitle('Clustering using Dimensionality Reduction', fontsize = 14)
@@ -53,18 +63,38 @@ def TSNE_graph(target_sample, target_label, train_sample, train_label):
     color_num = 2
 
     y = target_label
+    print(len(X_reduced_tsne) , len(y))
+
+    pos_idx, neg_idx = src.process_datasets.cnt_p_n(y)    
+    tsne_0 = X_reduced_tsne[neg_idx]
+    tsne_1 = X_reduced_tsne[pos_idx]
+
+    print(len(X_reduced_tsne) , len(tsne_0), len(tsne_1))
+
     # t-SNE scatter plot
-    ax1.scatter(X_reduced_tsne[:,0], X_reduced_tsne[:,1], c=(y==0), cmap= plt.cm.coolwarm, label='No Fraud', linewidths=2)
-    ax1.scatter(X_reduced_tsne[:,0], X_reduced_tsne[:,1], c=(y==1), cmap= plt.cm.coolwarm, label='Fraud', linewidths=2)
+    ax1.scatter(tsne_0[:,0], tsne_0[:,1], c='blue', cmap= plt.cm.coolwarm, label='No Fraud', linewidths=2)
+    ax1.scatter(tsne_1 [:,0], tsne_1 [:,1], c='red', cmap= plt.cm.coolwarm, label='Fraud', linewidths=2)
     ax1.set_title('t-SNE', fontsize=14)
 
     ax1.grid(True)
     ax1.legend(handles =[blue_patch, red_patch])
 
+    ############################################################################################################
     y = train_label
+    print(len(X_reduced_tsne2) , len(y))
+
+    pos_idx, neg_idx = src.process_datasets.cnt_p_n(y)    
+    tsne_0 = X_reduced_tsne2[neg_idx]
+    tsne_1 = X_reduced_tsne2[pos_idx]
+
+    print(len(X_reduced_tsne) , len(tsne_0), len(tsne_1))
+    
+    ax2.scatter(tsne_0[:,0], tsne_0[:,1], c='blue', cmap= plt.cm.coolwarm, label='No Fraud', linewidths=2)
+    ax2.scatter(tsne_1 [:,0], tsne_1 [:,1], c='red', cmap= plt.cm.coolwarm, label='Fraud', linewidths=2)
+
     # t-SNE scatter plot
-    ax2.scatter(X_reduced_tsne2[:,0], X_reduced_tsne2[:,1], c=(y==0), cmap= plt.cm.coolwarm, label='No Fraud', linewidths=2)
-    ax2.scatter(X_reduced_tsne2[:,0], X_reduced_tsne2[:,1], c=(y==1), cmap= plt.cm.coolwarm, label='Fraud', linewidths=2)
+    # ax2.scatter(X_reduced_tsne2[:,0], X_reduced_tsne2[:,1], c=(y==0), cmap= plt.cm.coolwarm, label='No Fraud', linewidths=2)
+    # ax2.scatter(X_reduced_tsne2[:,0], X_reduced_tsne2[:,1], c=(y==1), cmap= plt.cm.coolwarm, label='Fraud', linewidths=2)
     ax2.set_title('t-SNE', fontsize=14)
 
     ax2.grid(True)

@@ -4,7 +4,7 @@ from. config import config_vae
 from . import (
     log,
     plot,
-    procss_datasets,
+    process_datasets,
     sample,
     autoencoder,
     regression,
@@ -13,4 +13,5 @@ from . import (
     models,
     config,
     vae,
+    assessment_metric,
 )

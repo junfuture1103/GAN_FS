@@ -28,11 +28,11 @@ if __name__ == '__main__':
     df = data.sample(frac=1)
     
     #get data -> balancing pos == neg 기준 : pos갯수
-    # new_df = src.sample.sampling(df, 1000)
+    # new_df = src.sample.sampling(df, 5000)
 
     # data process
-    train_samples, test_samples, train_labels, test_labels = src.procss_datasets.prepare_dataset(df)
-    # train_samples, test_samples, train_labels, test_labels = src.procss_datasets.prepare_dataset(new_df)
+    train_samples, test_samples, train_labels, test_labels = src.process_datasets.prepare_dataset(df)
+    # train_samples, test_samples, train_labels, test_labels = src.process_datasets.prepare_dataset(new_df)
     # print(train_samples, test_samples, train_labels, test_labels)
 
     # train_dataset = pd.concat([pd.DataFrame(train_samples), pd.DataFrame(train_labels)],axis=1)
@@ -40,8 +40,8 @@ if __name__ == '__main__':
     # print(train_dataset)
 
     # test & train split complete
-    src.procss_datasets.print_test_vs_train(train_labels, test_labels)
-    train_pos_idx, train_neg_idx = src.procss_datasets.cnt_p_n(train_labels)    
+    src.process_datasets.print_test_vs_train(train_labels, test_labels)
+    train_pos_idx, train_neg_idx = src.process_datasets.cnt_p_n(train_labels)    
 
     # get positive datasets & negative datasets
     train_pos_dataset = train_samples[train_pos_idx]
