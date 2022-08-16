@@ -33,7 +33,7 @@ def preprocess_data(df):
 
     return samples, labels
 
-def prepare_dataset(name: str, training_test_ratio: float = 0.5) -> None:
+def prepare_dataset(name: str, training_test_ratio: float = 0.1) -> None:
     samples, labels = preprocess_data(name)
     training_samples, test_samples, training_labels, test_labels = train_test_split(
         samples,
