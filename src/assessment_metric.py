@@ -17,8 +17,8 @@ def vs_traditional_methods(dataset_name):
 
     for METHOD in TRADITIONAL_METHODS:
             x, y = train_samples, train_labels
-            x = x.numpy()
-            y = y.numpy()
+            # x = x.numpy()
+            # y = y.numpy()
             x, y = METHOD(random_state=src.config.seed).fit_resample(x, y)
             
             balanced_dataset = src.datasets.BasicDataset()

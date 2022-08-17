@@ -1,17 +1,23 @@
 from math import sqrt
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.metrics import roc_auc_score, confusion_matrix
 
 def RandomForest(x_train, y_train, x_test, y_test):
     # modeling
+    # Add GBM LGBM ... etc
     model_rf = RandomForestClassifier(n_estimators = 15)
     # train
     model_rf.fit(x_train, y_train)
+
     # predict
     y_pred = model_rf.predict(x_test) 
     # validation
     y_real = y_test
-    
+
+    print("y_real len : ", len(y_real))
+    print("y_real len : ", len(y_test))
+ 
     tn, fp, fn, tp = confusion_matrix(
         y_true=y_real,
         y_pred=y_pred,
