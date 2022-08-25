@@ -8,16 +8,18 @@ from sklearn.model_selection import train_test_split
 import src
 # from sklearn.model_selection import train_test_split
 
-def preprocess_data(df):
+def preprocess_data(data):
     print('=== STRAT PREPROCESS_DATA ===')
 
-    np_array = df
-    print("np_array 0 : ", np_array[:,0])
-    np.random.shuffle(np_array)
+    # np_array = df.to_numpy()
+    # print("np_array 0 : ", np_array[:,0])
+    # np.random.shuffle(np_array)
 
     # partition labels and samples
-    labels = np_array[:, -1].copy()
-    samples = np_array[:,1:-2].copy()
+    # labels = np_array[:, -1].copy()
+    # samples = np_array[:,1:-2].copy()
+    samples = data.loc[:, 'V1' : 'Amount']
+    labels = data.loc[:, 'Class']
     # labels = np_array[:, -1].copy()
     # samples = np_array[:,:-1].copy()
 

@@ -1,5 +1,4 @@
-import pandas as pd
-
+import pandas
 file_path = 'test.csv'
-df = pd.read_csv('test.csv')
+df = pandas.read_csv('test.csv')
 print(df)   
