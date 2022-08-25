@@ -55,10 +55,10 @@ def prepare_dataset(name, training_test_ratio: float = 0.6) -> None:
         train_size=training_test_ratio,
         # random_state=src.config.seed,
     )
-    src.datasets.training_samples = training_samples
-    src.datasets.training_labels = training_labels
-    src.datasets.test_samples = test_samples
-    src.datasets.test_labels = test_labels
+    src.datasets.training_samples = training_samples.to_numpy()
+    src.datasets.training_labels = training_labels.to_numpy()
+    src.datasets.test_samples = test_samples.to_numpy()
+    src.datasets.test_labels = test_labels.to_numpy()
 
     return training_samples, test_samples, training_labels, test_labels
 

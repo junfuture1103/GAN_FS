@@ -62,7 +62,7 @@ if __name__ == '__main__':
     target_sample_num = total_neg_cnt - total_pos_cnt
 
     x = torch.from_numpy(train_pos_dataset).to("cpu")
-    gan_dataset = get_gan_dataset.get_gan_datasets(x, target_sample_num)
+    gan_dataset = get_gan_dataset.get_jgan_datasets(x, target_sample_num)
 
     # x = torch.from_numpy(train_pos_dataset).to("cpu")
     # gan_dataset2 = get_gan_dataset.get_jgan_datasets(x, target_sample_num)
@@ -98,17 +98,17 @@ if __name__ == '__main__':
     # src.autoencoder.ae(train_samples, train_labels, test_samples, test_labels)
 
     # # x -> samples, y -> labels
-    start1 = time.time()
-    print("============ Start t-SNE for Visualization ============")
+    # start1 = time.time()
+    # print("============ Start t-SNE for Visualization ============")
     
-    # src.plot.TSNE_graph(X_train_resampled, y_train_resampled, gan_dataset2.samples, gan_dataset2.labels)
-    # src.plot.TSNE_graph(gan_dataset.samples, gan_dataset.labels, train_samples, train_labels)
-    end1 = time.time()
-    print("t-SNE time : ", end1-start1)
+    # # src.plot.TSNE_graph(X_train_resampled, y_train_resampled, gan_dataset2.samples, gan_dataset2.labels)
+    # # src.plot.TSNE_graph(gan_dataset.samples, gan_dataset.labels, train_samples, train_labels)
+    # end1 = time.time()
+    # print("t-SNE time : ", end1-start1)
 
     # print("============ vs_traditional_methods ============")
     # RandomOverSampler,SMOTE, ADASYN, BorderlineSMOTE
-    # src.assessment_metric.vs_traditional_methods(train_samples, test_samples, train_labels, test_labels)
+    src.assessment_metric.vs_traditional_methods(train_samples, test_samples, train_labels, test_labels)
 
     # src.classifier.Classifier(gan_dataset)
     print("============ Just RF ============")
