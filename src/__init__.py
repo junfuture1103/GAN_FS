@@ -2,7 +2,7 @@ from .config import config_gan
 from. config import config_vae
 
 from . import (
-    log,
+    logger,
     plot,
     process_datasets,
     sample,
@@ -14,4 +14,7 @@ from . import (
     config,
     vae,
     assessment_metric,
+    get_gan_dataset,
+    classifier,
+    utils,
 )

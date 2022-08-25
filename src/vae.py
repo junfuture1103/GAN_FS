@@ -74,6 +74,7 @@ class VAE:
         )
 
         x = PositiveDataset()[:][0].to(config.device)
+        print("x in VAE", x)
         for _ in range(config.config_vae.epochs):
             # clear gradients
             self.e.zero_grad()
@@ -96,5 +97,7 @@ class VAE:
         return
 
     def generate_z(self, size: int = 1):
+        # print("g_z samples : ", random.choices(PositiveDataset().samples, k=size))
         seeds = torch.stack(random.choices(PositiveDataset().samples, k=size)).to(config.device)
+        print("seeds in g_z : ", seeds)
         return self.e(seeds)[0]

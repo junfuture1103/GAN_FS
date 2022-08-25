@@ -3,6 +3,8 @@ import torch
 from . import (
     config_gan,
     config_vae,
+    logger,
+    path,
 )
 
 # random seed
